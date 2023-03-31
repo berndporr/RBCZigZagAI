@@ -1,14 +1,14 @@
-# Machinelearning-Tensorflow-HealthyCellDetector
-## framegenerator.py
-Opens avi videos and extracts single frames, calculates the background and returns an image with its corresponding label (Healthy/Ill).
-## celldetect.py 
+# AI based analysis of red blood cells in oscillating microchannels
+## `framegenerator.py`
+Opens avi videos and extracts single frames, calculates the background and returns an image with its corresponding label.
+## `celldetect.py`
 Returns the frame positions where the cell is detected in narrow or wide section of the zig-zag channel.
-## imageobt.py
-Combines the framegenerator.py and celldetect.py to extract the frames where the cell is detected in the wide or narrow section. Imageobt.py returns the desired image in a tensor format with its corresponding label that can be used in Tensorflow
-## train.py
-Uses healthy and ill avi files to train and test a model where the user specifies the cell location. It evaluates the prediction accuracy and shows a plot for the best and worst detected images. 
+## `imageobt.py`
+Combines the framegenerator.py and celldetect.py to extract the frames where the cell is detected in the wide or narrow section.
+## `train.py` (main program)
+Uses native and chem mod avi files to train and test a model where the user specifies the cell location in the channel. It evaluates the prediction accuracy and shows a plot for the best and worst detected images. 
 
-Usage: python train.py -n -w -h -f maxframes
+Usage: `python train.py -n -w -h -f <maxframes>`
 
 -w: wide channel
 
