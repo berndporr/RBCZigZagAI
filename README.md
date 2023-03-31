@@ -1,4 +1,7 @@
 # AI based analysis of red blood cells in oscillating microchannels
+
+Andreas Link, Irene Luna Pardo, Bernd Porr and Thomas Franke
+
 ## `framegenerator.py`
 Opens avi videos and extracts single frames, calculates the background and returns an image with its corresponding label.
 ## `celldetect.py`
