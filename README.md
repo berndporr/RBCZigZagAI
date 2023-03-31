@@ -2,6 +2,8 @@
 
 Andreas Link, Irene Luna Pardo, Bernd Porr and Thomas Franke
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7789864.svg)](https://doi.org/10.5281/zenodo.7789864)
+
 ## `framegenerator.py`
 Opens avi videos and extracts single frames, calculates the background and returns an image with its corresponding label.
 ## `celldetect.py`
